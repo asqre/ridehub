@@ -126,3 +126,12 @@ body {
   background-color: hsl(var(--accent)) !important;
   color: hsl(var(--accent-foreground)) !important;
 }
+
+/* Button borders - Ensure outline buttons have visible borders */
+button[class*="border"] {
+  border-color: hsl(var(--border)) !important;
+}
+
+button[class*="border"]:hover {
+  border-color: hsl(var(--accent)) !important;
+}
